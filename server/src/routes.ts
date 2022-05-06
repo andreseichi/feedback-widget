@@ -24,3 +24,7 @@ routes.post('/feedbacks', async (req, res) => {
 
   return res.status(201).send();
 });
+
+routes.get('/', (req, res) => {
+  return res.send('tudo funcionando');
+});
